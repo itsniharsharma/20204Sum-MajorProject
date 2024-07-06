@@ -20,7 +20,7 @@ be broadcasted among other joined clients through server.
 Socket.io makes the implimentation of this polling easier and effecient. Refer to 
 <link>https://socket.io/docs/v4/</link> for references. <br><br>
 
-Mind-Map and Requirements: <br><br>
+Mind-Map: <br><br>
 - Most basic stuff are, having a server and a client.
 - having a styling and layout for App (CSS)
 - In context to that, creating three folders: js, css, nodeServer
@@ -30,12 +30,12 @@ Mind-Map and Requirements: <br><br>
 - Created a layout design using HTML and CSS, it look like WhatsApp! :)
 - Having proper text area and text field along with send button <br><br>
 
-  Constructing Our Server: <br>
-  - get in nodeServer, then used npm init
-  - This command create a package.json file to handle our NodeJS server
-  - To install socket.io, I used:  npm i socket.io
-  - Being inside nedeServer folder, I created index.js file
-  - I planned to create server in index.js
+Constructing Our Server: <br>
+- get in nodeServer, then used npm init
+- This command create a package.json file to handle our NodeJS server
+- To install socket.io, I used:  npm i socket.io
+- Being inside nedeServer folder, I created index.js file
+- I planned to create server in index.js
 
 I was clear of the fact that, for handeling web applications, i need an HTTP server and 
 Express server, HTTP performs Transfer Protocol function (TP) which is essential for 
@@ -44,5 +44,11 @@ While Express server, constructed by NodeJS framework provides single page and m
 webApp functionality. Express runs on top of HTTP server and could be accessed through
 Routing(defining the endpoints) and many other method.  Both servers are crucial for managing
 the exchange of data between clients and servers, enabling users to interact with web applications.<br>
+
+- To install socket.io and express, use:    npm install express socket.io
+- Code line:
+     - const express = require('express');
+       const app = express();
+    initializes an Express application
 
 
