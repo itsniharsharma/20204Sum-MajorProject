@@ -1,2 +1,3 @@
 # 2024Sum-MajorProject
-created a Basic Chat Application using Socket.io
+Construction and Framework of this APP:
+So, initiating the description, This app is simple demonstration of Socket.io application//-------------------------------------------------------
