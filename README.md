@@ -18,15 +18,22 @@ But in HTTP long polling, which is a 2 way connection, any update pushed by a cl
 be broadcasted among other joined clients through server. 
 
 Socket.io makes the implimentation of this polling easier and effecient. Refer to 
-<link>https://socket.io/docs/v4/</link> for references. <br>
+<link>https://socket.io/docs/v4/</link> for references. <br><br>
 
 Mind-Map and Requirements: <br><br>
 - Most basic stuff are, having a server and a client.
 - having a styling and layout for App (CSS)
 - In context to that, creating three folders: js, css, nodeServer
 - js will have client side stuff, nodeServer will handle our server
+- We will be using NodeJS framework
 - Additionals are, having index.html (basic structure for App), img logo for chat and Ting.mp3
 - Created a layout design using HTML and CSS, it look like WhatsApp! :)
-- Having proper text area and text field along with send button <br>
+- Having proper text area and text field along with send button <br><br>
 
-  
+  Constructing Our Server: <br>
+  - get in nodeServer, then used npm init
+  - This command create a package.json file to handle our NodeJS server
+  - To install socket.io, I used:  npm i socket.io
+  - Being inside nedeServer folder, I created index.js file
+  - I planned to create server in index.js
+  - 
