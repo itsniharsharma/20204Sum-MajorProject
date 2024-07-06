@@ -1,5 +1,5 @@
 # 2024Sum-MajorProject
-Construction and Framework of this APP:
+Software Description: <br>
 So, initiating the description, This app is simple demonstration of Socket.io 
 application. I choose this as my Major project for summers, but it ended up in 
 a Day:) Gerenally in the cases of websites we browse have an HTTP protocole, 
