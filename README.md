@@ -48,7 +48,7 @@ the exchange of data between clients and servers, enabling users to interact wit
 - To install socket.io and express, use:    npm install express socket.io
 - Code line:
      - const express = require('express'); <br>
-       const app = express(); <br>
+       const app = express(); <br><br>
     initializes an Express application
 
 
