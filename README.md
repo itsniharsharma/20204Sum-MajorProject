@@ -36,4 +36,9 @@ Mind-Map and Requirements: <br><br>
   - To install socket.io, I used:  npm i socket.io
   - Being inside nedeServer folder, I created index.js file
   - I planned to create server in index.js
-  - 
+
+I was clear of the fact that, for handeling web applications, i need an HTTP server and 
+Express server, HTTP performs Transfer Protocol function (TP) which is essential for 
+communication between web clients (like browsers) and web servers. and is used by www <br>
+
+
