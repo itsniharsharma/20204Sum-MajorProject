@@ -39,6 +39,10 @@ Mind-Map and Requirements: <br><br>
 
 I was clear of the fact that, for handeling web applications, i need an HTTP server and 
 Express server, HTTP performs Transfer Protocol function (TP) which is essential for 
-communication between web clients (like browsers) and web servers. and is used by www <br>
+communication between web clients (like browsers) and web servers. and is used by www 
+While Express server, constructed by NodeJS framework provides single page and multipage
+webApp functionality. Express runs on top of HTTP server and could be accessed through
+Routing(defining the endpoints) and many other method.  Both servers are crucial for managing
+the exchange of data between clients and servers, enabling users to interact with web applications.<br>
 
 
