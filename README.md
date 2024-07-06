@@ -16,3 +16,6 @@ HTTP protocole, being a one way process can't update about the updates, its only
 principle is give and take, nothing much than that, You requested somethig, you have it.
 But in HTTP long polling, which is a 2 way connection, any update pushed by a client will
 be broadcasted among other joined clients through server. 
+
+Socket.io makes the implimentation of this polling easier and effecient. Refer to 
+<link>https://socket.io/docs/v4/</link>
